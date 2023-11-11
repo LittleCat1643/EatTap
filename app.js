@@ -16,11 +16,11 @@ function lose(rule) {
     if (rule == 1) {
         let body = document.querySelector('body');
         body.setAttribute('class', 'lose');
-        body.innerHTML = '<h2>Поражение!</h2><p>У тебя кончились деньги.</p><a href="javascript:window.location.reload();">Начать сначала</a>';
+        body.innerHTML = '<h2>Поражение!</h2><p>У тебя кончились деньги.</p><a href="javascript:window.location.reload();">Продолжить</a>';
     } else {
         let body = document.querySelector('body');
         body.setAttribute('class', 'lose');
-        body.innerHTML = '<h2>Поражение!</h2><p>Ты потерял почти весь свой вес.</p><a href="javascript:window.location.reload();">Начать сначала</a>';
+        body.innerHTML = '<h2>Поражение!</h2><p>Ты потерял почти весь свой вес.</p><a href="javascript:window.location.reload();">Продолжить</a>';
     }
 }
 function editStatistics(type, value) {
